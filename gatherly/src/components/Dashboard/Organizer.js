@@ -44,7 +44,7 @@ function Organizer() {
             </OrganizerPopup>
 
             <div className="header-section">
-                <h7>G a t h e r l y .</h7>
+                <h4>G a t h e r l y .</h4>
                 <div className='header-profile111'></div>
                 <a href="#" className="profile-bell">
                     <img src={bell} alt="Profile" />

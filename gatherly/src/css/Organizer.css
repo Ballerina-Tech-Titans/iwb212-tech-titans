@@ -21,17 +21,17 @@ main{
 }
 
 .header-profile111{
-    margin-left: 90rem
+    margin-left: 80rem
 }
 
-.header-section h7{
+.header-section h4{
     color: #00adb5;
     background-color: #000000;
     font-weight: 700;
     padding-left: 10px;
     padding-top: 4px;
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
 }
 .profile-bell img{
     width: 30px;
@@ -134,7 +134,7 @@ main{
 }
 
 .card img{
-    width: 310px;
+    width: 270px;
     height: 200px;
     display: block; /* Ensure no extra margin below the image */
     object-fit: cover; /* Maintain the aspect ratio and cover the entire area */
