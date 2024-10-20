@@ -16,7 +16,7 @@ Installation
 1. Clone the repository:
    git clone 
 2.	Navigate to the project directory:
-cd Gatherly
+cd gatherly
 2.	Install dependencies:
 npm install
 3.	Start the local development server:
@@ -27,15 +27,15 @@ Database Schema
 Name of the Database: ballerina
 
 Tables:
-1.	Users
+1.	users
 Column Names:
-Id – int (datatype)
-Name, email, password, cpassword – varchar (datatype)
+id – (int-datatype)
+name, email, password, cpassword – (varchar-datatype)
 
-3.	Organizers
+3.	organizers
 Column Names:
-Id – int(datatype)
-Event_name, event_description, date, event_category, ticket, organizer_name, email, contact_no – varchar (datatype)
+id – (int-datatype)
+event_name, event_description, date, event_category, ticket, organizer_name, email  – ( varchar-datatype)
 
 
 Usage
