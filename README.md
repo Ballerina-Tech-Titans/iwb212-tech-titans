@@ -30,12 +30,12 @@ Tables:
 1.	users
 Column Names:
 id – (int-datatype)
-name, email, password, cpassword – (varchar-datatype)
+name, email, password, cpassword – (varchar)
 
 3.	organizers
 Column Names:
 id – (int-datatype)
-event_name, event_description, date, event_category, ticket, organizer_name, email  – ( varchar-datatype)
+event_name, event_description, date, event_category, ticket, organizer_name, email  – ( varchar)
 
 
 Usage
