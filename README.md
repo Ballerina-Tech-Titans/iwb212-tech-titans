@@ -29,12 +29,12 @@ Name of the Database: ballerina
 Tables:
 1.	users
 Column Names:
-id – (int-datatype)
+id – (int)
 name, email, password, cpassword – (varchar)
 
 3.	organizers
 Column Names:
-id – (int-datatype)
+id – (int)
 event_name, event_description, date, event_category, ticket, organizer_name, email  – ( varchar)
 
 
