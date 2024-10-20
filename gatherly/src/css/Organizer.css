@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+main{
+    padding: 20px;
+}
+/*header CSS*/
+.header-section{
+    display: flex;
+    background-color: #000000;
+    padding-top: 23px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 12vh;
+}
+
+.header-profile111{
+    margin-left: 90rem
+}
+
+.header-section h7{
+    color: #00adb5;
+    background-color: #000000;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 32px;
+}
+.profile-bell img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 10px;
+}
+
+.profile-logout img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.profile{
+    background-color: #000000;
+}
+
+.logout{
+    background-color: #000000;
+}
+
+.logout i{
+    font-size: 35px;
+}
+
+/*welcome details*/
+.welcome-details{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.welcome-details h1{
+    color: #ffffff;
+}
+
+.welcome-details h4{
+    color: #e8e8e894;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.label-btn h3{
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.add-event-btn{
+    width: 80%;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #00adb5;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.add-event-btn i{
+    background-color: #00adb5;
+    font-size: 25px;
+}
+
+.new-events h2{
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.recent-event-cards{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: #000000;
+}
+
+.card{
+    border-radius: 15px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 10px; /* Add padding inside the card */
+    margin: 20px; /* Adjust space between cards */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift card slightly on hover */
+}
+
+.card img{
+    width: 310px;
+    height: 200px;
+    display: block; /* Ensure no extra margin below the image */
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire area */
+}
+
+.description{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding-left: 10px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #333; /* Change text color to make it stand out on the white background */
+}
+
+.description h3 {
+    background-color: #fff;
+    font-size: 18px; /* Make title slightly larger */
+    font-weight: bold; /* Emphasize title */
+    color: #000; /* Darker title color for better contrast */
+}
+
+.description h5{
+    background-color: #ffffff;
+}
+
+.description p{
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+.table-topic{
+    color: #ffffff;
+}
+
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.tickets-issued{
+    height: 100px;
+    overflow: scroll;
+}
+
+.tickets-issued td,th{
+    border-bottom: 1px solid #067b82;
+    padding: 8px;
+}
+
+.tickets-issued th{
+    background-color: #067b82;
+    color: #ffffff;
+}
+
+.tickets-issued td:nth-child(odd){
+    background-color: #e8e8e8;
+}
+
+.tickets-issued td:nth-child(even){
+    background-color: #96d9dc;
+    color: #ffffff;
+}
+
+.tickets-issued tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Popup  */
+

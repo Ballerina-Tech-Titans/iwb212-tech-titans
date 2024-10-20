@@ -1,0 +1,137 @@
+.faq-section {
+    padding: 40px;
+}
+
+.faq-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faq-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faq-content {
+    margin-bottom: 40px;
+}
+
+.faq-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.faq-square-container {
+    background-color: #2c2f3f; /* Same background as the image */
+    color: white;
+    max-width: 1000px; /* Fixed width */
+    height: 600px; /* Fixed height to make it a square */
+    margin: auto; /* Center it horizontally */
+    margin-top: 20px;
+    padding: 30px;
+    border: #00ADB5;
+    border-width: 5px;
+    border-radius: 10px; /* Optional for rounded corners */
+    overflow-y: auto; /* Enable scroll if content overflows */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+/* /FAQ container end/ */
+
+
+/* Support Section Styling */
+.support-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: #222831;
+}
+
+.support-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-color: #222831;
+}
+
+.support-card {
+    background-color: #393E46;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.support-card h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.support-card p {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+.phone-numbers {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem;
+}
+
+form textarea {
+    height: 80px;
+}
+
+.help button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00ADB5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #02848E;
+}
+
+
+  
+  @media (max-width: 768px) {
+    .heading-style-1 {
+        font-size: 28px;
+    }
+
+    .photographer {
+        font-size: 20px;
+    }
+
+    .about {
+        font-size: 16px;
+}
+}

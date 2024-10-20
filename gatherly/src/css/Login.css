@@ -1,0 +1,113 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.wrapper {
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.wrapper:hover {
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+.wrapper h2::before {
+  content: '';
+  display: block;
+  margin: 8px auto;
+  width: 50px;
+  height: 4px;
+  background-color: #4CAF50;
+  border-radius: 8px;
+}
+
+form {
+  margin-top: 25px;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.input-box input:focus {
+  border-color: #4CAF50;
+  background-color: #fff;
+}
+
+.policy {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.policy input {
+  margin-right: 8px;
+}
+
+.policy h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+}
+
+.button input {
+  width: 100%;
+  padding: 14px 0;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button input:hover {
+  background-color: #388E3C;
+}
+
+.text h3 {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+.text h3 a {
+  color: #4CAF50;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.text h3 a:hover {
+  color: #388E3C;
+  text-decoration: underline;
+}
