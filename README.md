@@ -35,7 +35,7 @@ name, email, password, cpassword – (varchar)
 3.	organizers
 Column Names:
 id – (int)
-event_name, event_description, date, event_category, ticket, organizer_name, email  – ( varchar)
+event_name, event_description, date, event_category, ticket, organizer_name, email, contact_no  – ( varchar)
 
 
 Usage
