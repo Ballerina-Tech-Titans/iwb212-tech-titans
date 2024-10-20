@@ -116,6 +116,30 @@ form textarea {
     cursor: pointer;
 }
 
+.submit-btn{
+    background: var(--aqua);
+    border: none;
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: var(--aqua);
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 16px;
+    padding: 12px;
+    border: 2px solid var(--aqua);
+    border-radius: 25px;
+    margin-left: 90px;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.submit-btn:hover{
+    background: var(--aqua);
+    color: #fff;
+}
+
 button:hover {
     background-color: #02848E;
 }

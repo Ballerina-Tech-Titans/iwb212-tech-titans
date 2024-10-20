@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react'
 import '../..//css/Style.css';
 import '../..//css/User.css';
 import '../..//js/User.js';
-import hackathon5 from '../..//images/hackathon5.jpg';
-import music5 from '../..//images/music5.jpg';
-import music11 from '../..//images/music11.jpg';
-import haloween5 from '../..//images/halloween5.jpg';
-import camera5 from '../..//images/camera5.jpg';
-import cricket5 from '../..//images/cricket5.jpg';
-import gaming5 from '../..//images/gaming5.jpg';
-import art5 from '../..//images/art5.jpg';
+// import hackathon5 from '../..//images/hackathon5.jpg';
+// import music5 from '../..//images/music5.jpg';
+// import music11 from '../..//images/music11.jpg';
+// import haloween5 from '../..//images/halloween5.jpg';
+// import camera5 from '../..//images/camera5.jpg';
+// import cricket5 from '../..//images/cricket5.jpg';
+// import gaming5 from '../..//images/gaming5.jpg';
+// import art5 from '../..//images/art5.jpg';
 
 function User() {
 	const [reminders, setReminders] = useState([]);

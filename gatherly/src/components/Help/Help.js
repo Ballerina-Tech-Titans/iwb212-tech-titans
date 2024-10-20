@@ -94,7 +94,7 @@ function Help() {
                     <form action="#">
                         <input type="email" placeholder="Email Address" required/>
                         <textarea placeholder="Enter Feedback Here" required></textarea>
-                        <button type="submit">Send</button>
+                        <button type="submit" class="submit-btn">Send</button>
                     </form>
                 </div>
             </div>
