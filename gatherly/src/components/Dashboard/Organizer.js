@@ -63,7 +63,7 @@ function Organizer() {
                         <h1>Hello Marco, Welcome to Gatherly!</h1>
                         <h4>Event Organizer Dashboard</h4>
                     </div>
-                    <div className="label-btn">
+                    <div className="label-btn" >
                         <h3>Profit: LKR. 100,000</h3>
                         <button className='add-event-btn' onClick={openPopup}>+ Add New Event</button>
                     </div>
